@@ -7,7 +7,7 @@
     <meta name="author" content="Desmond Tate" />
     <meta name="description" content="Coffee Shop" />
     <meta name="keywords" content="coffee, shop, cafe, restaurant" />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -104,7 +104,7 @@
         <section class="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
-            <fiedset class="form__fieldset">
+            <fieldset class="form__fieldset">
               <label for="name-input" class="form__label">
                 Name *
                 <input
@@ -146,12 +146,11 @@
                   required
                 />
               </label>
-            </fiedset>
+            </fieldset>
             <button class="form__button">Book a table</button>
             <label
               for="terms-input"
-              class="form__label"
-              form__label_type_checkbox
+              class="form__label form__label_type_checkbox"
             >
               <input
                 class="form__checkbox"
